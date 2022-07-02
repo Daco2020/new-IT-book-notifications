@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
-      uses: action/setup-python@v2
+      uses: action/setup-python@v4
       with:
         python-version: 3.8
 
